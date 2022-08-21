@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./img/favicon/site.webmanifest">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+    <div class="header pb-4 position-fixed w-100 top-0">
+      <div class="main-container">
+        <div class="header-inner d-flex justify-content-between align-items-center">
+          <h1 class="heder-title fw-bolder user-select-none">Where in the world?</h1>
+          <!-- theme switch btn -->
+          <div class="header-dark-mode-switch">
+            <button class="header-dark-mode-switch-btn border-0 bg-transparent d-flex justify-content-between align-items-center px-2 py-1 me-2 fs-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon me-2" viewBox="0 0 16 16">
+              <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z"/>
+            </svg>
+            Dark Mode</button>
+          </div>
+          <!-- theme switch btn -->
+        </div>
+      </div>
+    </div>
+  <!-- END HEADER -->
+  <!-- SEARCH SECTION -->
+    <section class="search-section">
+      <div class="main-container tst">
+        <div class="search-section-inner d-flex justify-content-between align-items-center">
+          <!-- search input -->
+          <div class="search-input-box position-relative d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search search-input-icon position-absolute ms-4" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
+            <input id="myTextField" class="search-input" type="text" placeholder="Search for a country...">
+          </div>
+          <!-- search select -->
+          <select class="search-select form-select pe-5" aria-label="Default select example">
+            <option value="#">All</option>
+            <option value="#">Europe</option>
+            <option value="#">Asia</option>
+            <option value="#">Africa</option>
+            <option value="#">North America</option>
+            <option value="#">South America</option>
+            <option value="#">Oceania</option>
+            <option value="#">Antarctica</option>
+          </select>
+        </div>
+      </div>
+    </section>
+  <!-- END SEARCH SECTION -->
+  <!-- MAIN SECTION -->
+    <main class="main mt-5">
+      <div class="main-container">
+        <div class="main-inner d-flex justify-content-between align-items-center flex-wrap">
+
+          <!-- <div class="country-card rounded mb-5" style="width: 370px;">
+            <img class="img-fluid rounded-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png" alt="">
+            <div class="count-inform-box px-3 mt-4">
+              <h4 class="country-title fw-bold fs-5 ms-1">
+                Germany
+              </h4>
+              <p class="country-population fw-bold fs-5 ms-1 mt-4 mb-1">
+                Population: <span class="population-span fw-normal">81,770,900</span>
+              </p>
+              <p class="country-region fw-bold fs-5 ms-1 mb-1">
+                Region: <span class="region-span fw-normal">Europe</span>
+              </p>
+              <p class="country-capital fw-bold fs-5 ms-1 mb-5">
+                Capital: <span class="capital-span fw-normal">Berlin</span>
+              </p>
+            </div>
+          </div> -->
+          
+        </div>
+      </div>
+    </main>
+  <!-- END MAIN SECTION -->
+  
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>

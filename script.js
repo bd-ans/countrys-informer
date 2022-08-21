@@ -96,7 +96,7 @@ elModeChangeBtn.addEventListener("click", () => {
 for (let count of countrys) {
   const elCountryCard = document.createElement("div");
   elMainInner.appendChild(elCountryCard);
-  elCountryCard.classList.add("country-card" , "mb-5");
+  elCountryCard.classList.add("country-card" , "mb-5", "rounded");
   elCountryCard.style.width = "370px";
   elCountryCard.style.boxShadow = "0 0 .7rem .3rem var(--black-box-shadow)";
   // card image
